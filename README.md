@@ -29,3 +29,10 @@ From:  https://medium.com/@splatEric/laravel-dusk-on-homestead-dc5711987595
 ```
 
 touch database/database.sqlite
+
+composer install
+
+php artisan dusk:install
+
+
+
