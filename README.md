@@ -1,4 +1,4 @@
-# Laravel 5.4.18 with Dusk no sandbox - working ubuntu 16.10
+# Laravel 5.4.18 with Dusk no sandbox
 
 This is a working Laravel 5.4.18 with dusk added.  If you are having trouble installing laravel dusk you can use this repo as a base.  The notable change is within the duskTestCaseFile.php file.  I added in the no sandbox option, this rule bypasses many restriction that prevent certain operating system from running this properly.  Read all about the benefits of the chromium sandbox and understand the risks of running without this option if you choose to visit external websites [https://www.chromium.org/developers/design-documents/sandbox].
 
