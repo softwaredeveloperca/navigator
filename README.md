@@ -4,6 +4,8 @@ This is a working Laravel 5.4.18 with dusk added.  If you are having trouble ins
 
 The following needed to be run on a copy of ubuntu 16.10.  Pemissions on the public directory, the logs within the resources directory and the driver itself may need to be changed.
 
+This has only been added to help me repeat this process.
+
 ```sh
 # makes sure all your repos are up to date
 sudo apt-get update
@@ -32,6 +34,9 @@ touch database/database.sqlite
 composer install
 
 php artisan dusk:install
+
+If all else fails run the script at the bottom of the pull request:
+https://github.com/laravel/dusk/issues/10
 
 
 
