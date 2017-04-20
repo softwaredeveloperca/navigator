@@ -38,5 +38,9 @@ php artisan dusk:install
 If all else fails run the script at the bottom of the pull request:
 https://github.com/laravel/dusk/issues/10
 
+check with
+/usr/bin/Xvfb :17 -screen 0 1280x720x24 & DISPLAY=:17 vendor/laravel/dusk/bin/chromedriver-linux --verbose --log-path=driver.log & vendor/bin/phpunit -c phpunit.dusk.xml --debug -
+
+
 
 
